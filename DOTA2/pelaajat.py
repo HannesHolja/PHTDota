@@ -46,4 +46,7 @@ class Pelaajat:
     def set__taitotaso(self):
         self.__taitotaso
 
-    #def __str__(self)
+    def __str__(self):
+        return "Nimi: {0}\Ika: {1}\nKansalaisuus: {2}\nKieli: {3}\nKDA:: {4}\nTaitotaso: {5}".format(self.get___nimi(),self.get__ika(),\
+            self.get__kieli(),self.get__voittohavio(),self.get__taitotaso())
+
